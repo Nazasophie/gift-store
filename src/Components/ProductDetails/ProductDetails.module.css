@@ -1,0 +1,746 @@
+.section1 {
+    width: 1086px;
+    margin: auto;
+    display: flex;
+    gap: 105px;
+    padding-bottom: 110px;
+}
+/* added to cart pop up style start */
+.addedToCartPopup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #52489c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+    font-family: League Spartan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+/* added to cart pop up style end */
+
+.section1Div1 {
+    margin-top: 89px;
+}
+
+.section1header {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.img1Div {
+    width: 38.125rem;
+    height: 32.875rem;
+    border-radius: 1.25rem;
+    background: #E7EBEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemSmallImgDiv {
+    margin-top: 30px;
+    display: flex;
+    gap: 38px;
+}
+
+.item1PicDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.75rem;
+    height: 6.6875rem;
+    border-radius: 0.625rem;
+    background: #E7EBEE;
+}
+
+.morePicDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.75rem;
+    height: 6.6875rem;
+    border-radius: 0.625rem;
+    background: #52489C;
+}
+
+.morePic {
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Section 1 right style start */
+.section1Div2 {
+    margin-top: 135px;
+}
+
+.starDiv {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 27px;
+}
+
+.reviews {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nairaDiv1 {
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.amount1 {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.itemDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.item {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.addToCartDiv {
+    margin-top: 245px;
+}
+
+.addToCartBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 23.1875rem;
+    height: 3.3125rem;
+    border-radius: 0.625rem;
+    background: #52489C;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.addToCartBtn:hover {
+    background: #2b1e8f;
+}
+
+.addToCartDiv2 {
+    margin-top: 20px;
+}
+
+.addToCartBtn2 {
+    width: 23.1875rem;
+    height: 3.3125rem;
+    border-radius: 0.625rem;
+    border: 1px solid #52489C;
+    background: #FFF;
+    color: #52489C;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* Section 1 right style end */
+/* Section 2 right style start */
+.section2 {
+    width: 1086px;
+    /* width: 100%; */
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    gap: 304px;
+    padding-bottom: 104px;
+}
+
+.DRdiv {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.Details {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Reviews {
+    color: #7B7B7B;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.aboutProduct {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 20px;
+}
+
+.itemsInsideDiv {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-bottom: 20px;
+}
+
+.itemsInside {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Secont 2 right div style start */
+.secondStarDiv {
+    width: 368px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ratingPoint {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ratingDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    gap: 19px;
+}
+
+.ratingEmptyDiv1 {
+    width: 290px;
+    height: 13px;
+    background: #E7EBEE;
+}
+
+.ratingEmptyInsideDiv1 {
+    width: 12.1875rem;
+    height: 13px;
+    background-color: #EFBA32;
+}
+
+.rating5 {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rating7 {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ratingEmptyInsideDiv2 {
+    width: 8.04688rem;
+    height: 13px;
+    background-color: #EFBA32;
+}
+
+.ratingEmptyInsideDiv3 {
+    width: 3.98438rem;
+    height: 13px;
+    background-color: #EFBA32;
+}
+
+/* Secont 2 right div style end */
+/* Section 2 right style end */
+/* Section 3 style start */
+/* Top Picks styles start */
+.TopPicksDiv {
+    margin: 0 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TopPicksDiv1 {
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.TopPicksHeader {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TopPicksImg1 {
+    margin-top: 20px;
+    width: 25rem;
+    height: 12.6875rem;
+}
+
+.productNameDiv {
+    width: 25rem;
+    height: 5.375rem;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
+    background: #e7ebee;
+    margin-top: -4px;
+    padding: 20px 20px 20px 20px;
+}
+
+.productNameDiv2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productName {
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nairaDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.naira {
+    width: 0.875rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+}
+
+.amount {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TopPicksBtn {
+    width: 6.9375rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: none;
+    background: #52489c;
+    color: #f9f9f9;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.TopPicksBtn:hover {
+    background: #6b61b3;
+    color: #f9f9f9;
+}
+
+/* Top Picks style end */
+/* Arrow style start */
+.arrowDiv {
+    margin: auto;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 109px;
+}
+
+.backArrowDiv {
+    width: 3.125rem;
+    height: 3.3125rem;
+    border-radius: 10px;
+    border: 1px solid #52489C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Arrow style end */
+/* Section 3 style end */
+
+
+/* Mobile style start */
+@media (max-width: 1270px) {
+    .HeaderDiv {
+        /* padding-bottom: 50px; */
+        margin-bottom: 50px;
+    }
+
+    /* Hidden style start */
+    .TopPicks3Mobile {
+        display: none;
+    }
+
+    /* Hidden style end */
+    .section1 {
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    .section1Div1 {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 200px;
+        /* padding: 250px 0 0 0px; */
+    }
+
+    .section1Div2Mobile {
+        /* margin: auto; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: -100px 0px 0 0; */
+        position: absolute;
+        top: 0px;
+        margin-top: -50px;
+    }
+
+    .section1header {
+        font-size: 1.5rem;
+        margin-bottom: -10px;
+    }
+
+    .img1Div {
+        width: 22.125rem;
+        /* width: 100%; */
+        height: 19.875rem;
+    }
+
+    .starImgMobile {
+        width: 99px;
+    }
+
+    .item2IMG {
+        width: 3.0625rem;
+        height: 2.0625rem;
+    }
+
+    .item3IMG {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+
+    .item4IMG {
+        width: 3.29063rem;
+        height: 1.98256rem;
+    }
+
+    .item1IMG {
+        width: 339px;
+    }
+
+    .itemSmallImgDiv {
+        width: 22.125rem;
+    }
+
+    .item1PicDiv {
+        width: 3.875rem;
+        height: 3.3125rem;
+    }
+
+    .morePicDiv {
+        width: 3.875rem;
+        height: 3.3125rem;
+    }
+
+    .morePic {
+        font-size: 0.875rem;
+    }
+
+    /* Section 1 right style start */
+    .section1Div2 {
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        padding: 0 20px;
+    }
+
+    .starDiv {
+        margin-top: 27px;
+    }
+
+    .reviews {
+        font-size: 0.875rem;
+    }
+
+    .nairaDiv1 {
+        margin-top: 24px;
+    }
+
+    .nairaIMGmobile {
+        width: 19.83px;
+    }
+
+    .amount1 {
+        font-size: 1.5rem;
+    }
+
+    .itemDiv {
+        margin-top: 30px;
+    }
+
+    .item {
+        font-size: 1.125rem;
+    }
+
+    .addToCartDiv {
+        margin-top: 490px;
+    }
+
+    .addToCartBtn {
+        width: 22.125rem;
+        height: 3.1875rem;
+        font-size: 1rem;
+    }
+
+    .addToCartBtn:hover {
+        background: #2b1e8f;
+    }
+
+    .addToCartDiv2 {
+        margin-top: 20px;
+    }
+
+    .addToCartBtn2 {
+        width: 22.125rem;
+        height: 3.1875rem;
+        font-size: 1rem;
+    }
+
+    /* Section 1 right style end */
+    /* Section 2 right style start */
+    .section2 {
+        width: 370px;
+        flex-direction: column;
+        margin-top: 90px;
+        padding: 0 20px;
+        /* gap: 304px; */
+        /* padding-bottom: 4px; */
+    }
+
+    /* .DRdiv {
+        display: flex;
+        gap: 50px;
+        padding-bottom: 30px;
+    } */
+
+    .Details {
+        font-size: 1.25rem;
+    }
+
+    .Reviews {
+        font-size: 1.25rem;
+    }
+
+    .aboutProduct {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    /* .itemsInsideDiv {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        padding-bottom: 20px;
+    } */
+
+    .itemsInside {
+        font-size: 1rem;
+    }
+
+    /* Second 2 right div style start */
+    .section2Div2 {
+        margin-top: -280px;
+    }
+
+    .secondStarDiv {
+        width: 340px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .ratingPoint {
+        font-size: 0.875rem;
+    }
+
+    .secondStarIMGmobile {
+        width: 99px;
+    }
+
+
+    .rating5 {
+        font-size: 1rem;
+    }
+
+    .rating7 {
+        font-size: 1rem;
+    }
+
+    /* Secont 2 right div style end */
+    /* Section 2 right style end */
+
+    /* Top Picks styles start */
+    .TopPicksDiv {
+        margin: 37px 0px 20px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .TopPicksDiv1 {
+        width: 370px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .TopPicksHeader {
+        font-size: 1.25rem;
+        padding: 0 10px;
+    }
+
+    /*  */
+    .TopPicksImg1 {
+        width: 10.7375rem;
+        height: 7.75rem;
+    }
+
+    .productNameDiv {
+        width: 10.7375rem;
+        height: 8.875rem;
+        margin-top: -5px;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .productNameDiv2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 120px;
+    }
+
+    .productName {
+        font-size: 1rem;
+    }
+
+    .nairaDiv {
+        position: absolute;
+        bottom: 50px;
+    }
+
+
+    .amount {
+        font-size: 1rem;
+    }
+
+    .TopPicksBtn {
+        width: 6.375rem;
+        height: 2.1875rem;
+        font-size: 1rem;
+        /* margin-bottom: 10px; */
+        position: absolute;
+        bottom: 0%;
+    }
+
+    /* Top Picks style end */
+    /* Arrow style start */
+    .arrowDiv {
+        margin: auto;
+        width: 100px;
+        margin-bottom: 60px;
+        /* gap: 20px; */
+    }
+    .backArrowDiv {
+        width: 2.55206rem;
+        height: 2.70519rem;
+    }
+    .arrowImg {
+        width: 16.66px;
+    }
+
+    /* Arrow style end */
+}
+
+/* Mobile style end */

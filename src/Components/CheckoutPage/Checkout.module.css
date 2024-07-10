@@ -1,0 +1,323 @@
+.con {
+    background-color: #F9F9F9;
+}
+.headerDiv {
+    background-color: #F9F9F9;
+}
+.impDivMobile {
+    display: none;
+}
+
+.firstHeader {
+    width: 1240px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.firstH1 {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Left Right style start */
+.main {
+    background-color: #F9F9F9;
+}
+/* Left style start */
+.leftRightCon {
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+    gap: 104px;
+    padding-bottom: 111px;
+}
+
+.leftDiv1Para {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.leftDiv {
+    width: 44.6875rem;
+    height: 20.6875rem;
+    border-radius: 1.25rem;
+    background: #E7EBEE;
+    padding: 20px 30px;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+.input {
+    width: 17.8125rem;
+    height: 2.375rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    border: none;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.emailInputDiv {
+    margin-top: 30px;
+}
+.phoneInputDiv {
+    margin-top: 30px;
+}
+.stateInputDiv {
+    margin-top: 30px;
+}
+.para {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Imp style start */
+.impDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    margin-top: 150px;
+    margin-left: -25px;
+}
+
+.impP {
+    color: #46435B;
+    /* text-align: center; */
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Imp style end */
+/* Left style end */
+/* Right style start */
+.rightDiv {
+    width: 26.25rem;
+    height: 31.5625rem;
+    border-radius: 1.25rem;
+    background: #E7EBEE;
+    padding: 30px;
+}
+.rightDiv1Para {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.cardNameDiv {
+    margin-top: 40px;
+}
+.cardPara {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cardNameInput {
+    width: 22.5rem;
+    height: 2.375rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.cardNumberDiv {
+    margin-top: 40px;
+}
+
+.expiryDateCvvDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* align-items: center; */
+}
+.expiryDateCvvInput {
+    width: 8.75rem;
+    height: 2.375rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.proceedInput {
+    width: 21.3125rem;
+    height: 3.3125rem;
+    border-radius: 0.625rem;
+    background: #52489C;
+    color: #F9F9F9;
+    font-family: League Spartan;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.proceedInput:hover {
+    background: #5448b0;
+}
+
+/* Right style end */
+/* Left Right style end */
+
+/* Mobile style start */
+@media (max-width: 1270px) {
+    .firstHeader {
+        width: 370px;
+        padding: 0 10px;
+        padding-top: 40px;
+    }
+
+    .firstH1 {
+        width: 300px;
+        font-size: 2.25rem;
+        padding-left: -10px;
+    }
+
+    /* Left Right style start */
+    /* Left style start */
+    .leftRightCon {
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 58px;
+        /* gap: 104px; */
+        /* padding-bottom: 111px; */
+    }
+    .leftDiv1Para {
+        font-size: 1.25rem; 
+    }
+    /* .leftDiv {
+        width: 370px;
+        width: 23.125rem;
+        padding: 0 30px;
+        margin: auto;
+    } */
+    .leftDiv {
+        width: 22rem;
+        height: 26.6875rem; 
+        padding: 30px 20px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    .input {
+        width: 19.25rem;
+        height: 2.375rem; 
+        border-radius: 0.5rem;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    .emailInputDiv {
+        margin-top: 10px;
+    }
+    .phoneInputDiv {
+        margin-top: 10px;
+    }
+    .addressInputDiv {
+        margin-top: 10px;
+    }
+    .stateInputDiv {
+        margin-top: 10px;
+    }
+    .para {
+        font-size: 1rem;
+    }
+    /* Imp style start */
+    .impDiv {
+        display: none;
+    }
+    .impDivMobile {
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+        margin-top: 150px;
+        padding: 0 20px;
+        margin: -45px 0 -50px 0;
+    }
+    
+    .impP {
+        width: 322px;
+        font-size: 0.9375rem; 
+    }
+    
+    /* Imp style end */
+
+    /* Right style start */
+    .rightDiv {
+        width: 22rem;
+        height: 27.4375rem; 
+        padding: 20px;
+        margin-top: 0px; 
+    }
+    .rightDiv1Para {
+        font-size: 1.25rem; 
+        margin-top: -70px;
+    }
+    .cardImg {
+        width: 310px;
+    }
+    .cardNameDiv {
+        margin-top: 20px;
+    }
+    .cardPara {
+        font-size: 1rem;
+    }
+    .cardNameInput {
+        width: 19.25rem;
+        height: 2.375rem;;
+    }
+    .cardNumberDiv {
+        margin-top: 20px;
+    }
+    
+    .expiryDateCvvDiv{
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+    .expiryDateCvvInput {
+        width: 6.8125rem;
+        height: 2.375rem;
+
+    }
+    
+    .proceedInput {
+        width: 19.25rem;
+        height: 3.1875rem; 
+        margin-top: 30px;
+        font-size: 1.5rem;
+    }
+    
+    /* Right style end */
+    /* Left Right style end */
+}
+
+/* Mobile style end */

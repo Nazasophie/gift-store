@@ -1,0 +1,766 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* added to cart pop up style start */
+.addedToCartPopup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #52489c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+    font-family: League Spartan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+/* added to cart pop up style end */
+/* Mobile hidden start */
+.landingRightPicMobile {
+    display: none;
+}
+
+.partnersDivMobile {
+    display: none;
+}
+
+.brandNewPicMobile {
+    display: none;
+}
+
+/* Mobile hidden end */
+.homeStyle {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 70px 0px 0 0px;
+}
+
+.landingLeft {
+    width: 691px;
+    height: 526px;
+    background-color: #cce1ed;
+    border-radius: 20px 0 0 20px;
+}
+
+.landingh1 {
+    padding: 90px 0 0 55px;
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.landingp {
+    padding: 70px 0 0 55px;
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.button {
+    padding: 47px 0 0 55px;
+}
+
+.landingLink {
+    padding: 19px 32px 19px 32px;
+    border-radius: 0.625rem;
+    background: #52489c;
+    color: #f9f9f9;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    /* line-height: normal; */
+}
+
+/* Partners Styles start */
+.partnersDiv {
+    display: flex;
+    justify-content: center;
+    padding: 111px 0;
+}
+
+.trackServiceDiv {
+    margin: auto;
+    width: 810px;
+    height: 255px;
+    background-color: #e7ebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 111px;
+}
+
+.trackService {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+
+.trackServicep {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+}
+
+.trackServiceSmallp {
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.form {
+    display: flex;
+}
+
+.trackInput {
+    width: 20.9375rem;
+    height: 3.3125rem;
+    /* flex-shrink: 0; */
+    border-radius: 0.625rem 0rem 0rem 0.625rem;
+    background: #f9f9f9;
+    border: none;
+    text-indent: 20px;
+}
+
+.trackInput::placeholder {
+    color: #7b7b7b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+}
+
+.trackInput:focus {
+    outline: none;
+}
+
+.trackBtn {
+    width: 9.5rem;
+    height: 3.3125rem;
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    background: #52489c;
+    color: #f9f9f9;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* Partners Styles end */
+/* Trending styles start */
+.trendingDiv {
+    margin: 0 0px 112px 0px;
+    /* padding: 0 99px 0 99px; */
+
+    /* margin-left: 20px; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.trendingInputDiv1 {
+    /* padding: 0 99px 0 99px; */
+    /* margin: 0 auto; */
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.treadingHeader {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 37px;
+}
+
+.treadingName {
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.treadingImg1 {
+    margin-top: 20px;
+    width: 25.25rem;
+    height: 14.9375rem;
+    flex-shrink: 0;
+}
+
+/* Trending style end */
+/* Brand New Addition style start */
+.brandNew {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0px 0px 104px 0px;
+}
+
+.brandNewpAdd {
+    padding: 39px 0 0 104px;
+    color: #52489c;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+}
+
+.brandNewLeft {
+    width: 578px;
+    height: 391px;
+    background-color: #ffe9d8;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.brandNew1 {
+    padding: 23px 0 0 104px;
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.brandNewp {
+    padding: 20px 0 0 104px;
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.brandNewBtn {
+    padding: 47px 0 0 104px;
+}
+
+.brandNewLink {
+    padding: 19px 32px 19px 32px;
+    border-radius: 0.625rem;
+    background: #52489c;
+    color: #f9f9f9;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    /* line-height: normal; */
+}
+
+/* Brand New Addition style end */
+
+/* Top Picks styles start */
+.TopPicksDiv {
+    margin: 0 0px 80px 0px;
+    /* padding: 0 99px 0 99px; */
+    /* width: 1260px; */
+    /* margin-left: 20px; */
+    /* background-color: red; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopPicksDiv1 {
+    /* padding: 0 99px 0 99px; */
+    margin: 0 auto;
+    width: 1260px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.TopPicksHeader {
+    width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 0 30px; */
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TopPicksImg1 {
+    margin-top: 20px;
+    width: 25rem;
+    height: 12.6875rem;
+}
+
+.productNameDiv {
+    width: 25rem;
+    height: 5.375rem;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
+    background: #e7ebee;
+    margin-top: -4px;
+    padding: 20px 20px 20px 20px;
+}
+
+.productNameDiv2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productName {
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nairaDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.naira {
+    width: 0.875rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+}
+
+.amount {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TopPicksBtn {
+    width: 6.9375rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: none;
+    background: #52489c;
+    color: #f9f9f9;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.TopPicksBtn:hover {
+    background: #6b61b3;
+    color: #f9f9f9;
+}
+
+/* Top Picks style end */
+/* Time Delivery Policy style start */
+.TDPdiv {
+    display: flex;
+    margin: auto;
+    width: 77.5rem;
+    height: 14.0625rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #e7ebee;
+    margin-bottom: 110px;
+}
+
+.TDPdiv2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.clock {
+    text-align: center;
+}
+
+.TDPheader {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 5px 0 15px 0;
+}
+
+.TDPbody {
+    color: #46435b;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Time Delivery Policy style end */
+
+/* Mobile style start */
+@media (max-width: 1270px) {
+
+    /* Desktop hidden start */
+    .landingRightPic {
+        display: none;
+    }
+
+    .partnersDiv {
+        display: none;
+    }
+
+    /* Desktop hidden end */
+    .homeStyle {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        padding: 70px 30px 0 30px;
+    }
+
+    .landingLeft {
+        /* width: 370px; */
+        width: 100%;
+        height: 348px;
+        /* background-color: #CCE1ED; */
+        border-radius: 20px 20px 0 0;
+    }
+
+    .landingh1 {
+        padding: 60px 0 0 20px;
+        font-size: 2.25rem;
+    }
+
+    .landingp {
+        padding: 26px 0 0 20px;
+        font-size: 1rem;
+    }
+
+    .button {
+        padding: 47px 0 0 20px;
+    }
+
+    .landingLink {
+        padding: 18px 32px 18px 32px;
+        border-radius: 0.625rem;
+        font-size: 1rem;
+    }
+
+    .landingRightPicMobile {
+        display: block;
+    }
+
+    .landingRight {
+        max-width: 100%;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .landingRightPicMobile {
+        width: 200%;
+        max-width: 100%;
+        height: auto;
+        object-fit: fill;
+        /* height: 325px; */
+        /* resize: both; */
+        /* border-radius: 0px 0px 20px 20px; */
+    }
+
+    /* Partners Styles start */
+    .partnersDivMobile {
+        /* display: block; */
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+    }
+
+    /* Track style start */
+    .trackServiceDivMobile {
+        width: 100%;
+        height: 275px;
+        /* background-color: #E7EBEE; */
+        padding: 0px 30px 0px 30px;
+    }
+
+    .trackServiceDiv {
+        width: 100%;
+        height: 275px;
+        background-color: #e7ebee;
+        /* margin: 0px 30px 0px 20px; */
+    }
+
+    .trackServicep {
+        font-size: 1.25rem;
+    }
+
+    .trackServiceSmallp {
+        width: 240px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trackInput {
+        /* width: 330px; */
+        width: 290px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .trackBtn {
+        width: 8.875rem;
+        height: 2.9375rem;
+        flex-shrink: 0;
+        border-radius: 0.625rem;
+        font-size: 1rem;
+    }
+
+    /* Trending styles start */
+    .trendingDiv {
+        margin: 50px 0px 62px 0px;
+        padding: 0 30px 0 30px;
+    }
+
+    .trendingInputDiv1 {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .treadingHeader {
+        font-size: 1.25rem;
+        padding-bottom: 27px;
+    }
+
+    .treadingName {
+        font-size: 1rem;
+    }
+
+    .treadingImg1 {
+        width: 100%;
+        height: 14.3125rem;
+    }
+
+    /* Trending style end */
+    /* Brand New Addition style start */
+    .brandNewPicDesktop {
+        display: none;
+    }
+
+    .brandNewPicMobile {
+        width: 100%;
+        display: block;
+    }
+
+    .brandNew {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0px 30px 30px 30px;
+    }
+
+    .brandNewpAdd {
+        padding: 39px 0 0 20px;
+        font-size: 1rem;
+    }
+
+    .brandNewLeft {
+        width: 100%;
+        height: 330px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .brandNew1 {
+        padding: 5px 0 0 20px;
+        font-size: 2rem;
+    }
+
+    .brandNewp {
+        padding: 10px 0 0 20px;
+        font-size: 1rem;
+    }
+
+    .brandNewBtn {
+        padding: 47px 0 0 20px;
+    }
+
+    .brandNewLink {
+        padding: 17px 32px 17px 32px;
+        font-size: 1rem;
+    }
+
+    /* Brand New Addition style end */
+
+    /* Top Picks styles start */
+    .TopPicksDiv {
+        /* width: 100%; */
+        overflow: hidden;
+        /* width: 100%; */
+        margin: 0 0px 0px 0px;
+        margin-left: 0px;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .TopPicksDiv1 {
+        width: 370px;
+        /* width: 100%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .TopPicksHeader {
+        font-size: 1.25rem;
+        padding: 0 10px;
+    }
+
+    /*  */
+    .TopPicksImg1 {
+        width: 10.7375rem;
+        height: 7.75rem;
+    }
+
+    .productNameDiv {
+        width: 10.7375rem;
+        height: 8.875rem;
+        margin-top: -5px;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .productNameDiv2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 120px;
+    }
+
+    .productName {
+        font-size: 1rem;
+    }
+
+    .nairaDiv {
+        position: absolute;
+        bottom: 50px;
+    }
+
+
+    .amount {
+        font-size: 1rem;
+    }
+
+    .TopPicksBtn {
+        width: 6.375rem;
+        height: 2.1875rem;
+        font-size: 1rem;
+        /* margin-bottom: 10px; */
+        position: absolute;
+        bottom: 0%;
+    }
+
+    /* Top Picks style end */
+    /* Time Delivery Policy style start */
+    .TDPdiv {
+        display: flex;
+        /* flex-direction: column; */
+        /* margin: auto; */
+        /* width: 100%; */
+        width: 22.125rem;
+        height: 32.9375rem; 
+        margin-top: 20px;
+        margin-bottom: 110px;
+        /* padding: 0 30px; */
+    }
+
+    .TDPdiv2 {
+        /* padding: 0 30px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 30px;
+        /* margin: auto; */
+    }
+
+    .clock {
+        text-align: center;
+    }
+
+    .TDPheader {
+        font-size: 1rem;
+    }
+
+    .TDPbody {
+        font-size: 1rem;
+    }
+
+    /* Time Delivery Policy style end */
+}
+
+/* Mobile style end */

@@ -1,0 +1,25 @@
+/* MobileSearch.css */
+.searchResultsContainer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #46435B;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+  
+  .searchResultItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    background-color: #524f66;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,58 @@
+/* GiftOccasionsDropdown.module.css */
+.dropdownContainer {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  width: 40.875rem;
+  height: 24.4375rem;
+  border-radius: 0rem 1.25rem 1.25rem 1.25rem;
+  border: 2px solid #52489C;
+  background: #FFF;
+  /* margin-left: 15%; */
+  margin-top: 10px;
+
+}
+.dropdownSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px; 
+  border-bottom: 2px solid #52489C;
+}
+
+.sectionHeading {
+  margin-top:20px;
+  color: #52489C;
+  font-family: League Spartan;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+
+}
+.listDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 49px 0 30px;
+}
+.dropdownList {
+  list-style: none;
+  padding: 0px 0 0 0;
+  color: #46435b;
+}
+.dropdownList2Div {
+  margin-left: -30px;
+}
+.dropdownList .li {
+  color: #46435B;
+  font-family: League Spartan;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px ;
+  cursor: pointer;
+}
+.dropdownList .li:hover {
+  color: #52489C;
+  font-weight: 600;
+}

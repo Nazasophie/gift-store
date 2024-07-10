@@ -1,0 +1,42 @@
+/* GiftBasket.module.css */
+
+.gift-basket {
+  width: 16.75rem;
+  height: 15.6875rem;
+  border-radius: 0rem 1.25rem 1.25rem 1.25rem;
+  border: 2px solid #52489C;
+  background: #FFF;
+  margin: 10px 0 0 5px;
+  /* position: absolute; */
+}
+
+.basket-content {
+  border-bottom: 1px solid #52489c;
+  margin: 25px;
+  color: #52489C;
+  font-family: League Spartan;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+ 
+}
+
+.list-items {
+  list-style: none;
+  margin: 0 0 0 25px;
+}
+
+.list-items .li {
+  color: #46435B;
+  font-family: League Spartan;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.list-items .li:hover {
+  color: #52489C;
+  font-weight: 600;
+}

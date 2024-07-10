@@ -1,0 +1,626 @@
+.con {
+    background-color: #F9F9F9;
+}
+
+.impDivMobile {
+    display: none;
+}
+
+.firstHeader {
+    width: 1240px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.firstH1 {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Left Right style start */
+/* Left style start */
+.leftRightCon {
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+    gap: 104px;
+    padding-bottom: 111px;
+}
+
+.leftDiv {
+    width: 736px;
+}
+
+.GiftQPdiv {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 76px;
+    border-bottom: 1px solid #7B7B7B;
+    padding: 0px 0 20px 0;
+}
+
+.textGift {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.qpDiv {
+    display: flex;
+}
+
+.textQuantity {
+    padding-right: 119px;
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textPrice {
+    padding-right: 119px;
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Item style start */
+/* Item style end */
+.itemDiv {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.itemImageDiv {
+    display: flex;
+    align-items: center;
+}
+.itemImg{
+    width: 100px;
+}
+
+.itemImageDivPara {
+    margin-left: 20px;
+}
+
+.plusMinusAmountDiv {
+    display: flex;
+    align-items: center;
+    padding-right: 47px;
+}
+
+.plusMinusDiv {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding-right: 108px;
+}
+
+.plusDiv {
+    width: 2.1875rem;
+    height: 2.0625rem;
+    border-radius: 0.125rem;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.oneDiv {
+    width: 2.1875rem;
+    height: 2.0625rem;
+    border-radius: 0.125rem;
+    border: 1px solid #D9D9D9;
+    background: #E7EBEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amountRemoveDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amountDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.amountp {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cancelDiv {
+    width: 1.1875rem;
+    height: 1.1875rem;
+    background-color: #E7EBEE;
+    border-radius: 50px;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+/* Total style start */
+.totalDiv {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 80px;
+    padding-bottom: 79px;
+}
+
+.totalp {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 161px;
+}
+
+.totalAmountDiv {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.totalAmount {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.noItem {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.shopNow {
+    padding: 10px 20px;
+    border-radius: 0.625rem;
+    background: #52489C;
+    color: #F9F9F9;
+    font-family: League Spartan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* Total style end */
+/* Imp style start */
+.impDiv {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.impP {
+    color: #46435B;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Imp style end */
+/* Left style end */
+/* Right style start */
+.rightDiv {
+    width: 25.0625rem;
+    height: 31.875rem;
+    border-radius: 1.25rem;
+    background: #E7EBEE;
+    padding: 30px;
+}
+
+.rightHeader {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 58px;
+}
+
+.subTotalDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 22px;
+}
+
+.subtotalP {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.subtotalAmountDiv {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.subtotalAmount {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deliveryFeeAmount {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 18px;
+}
+
+.promoCode {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.promoInput {
+    width: 14.1875rem;
+    height: 2.375rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    padding-left: 15px;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 39px;
+}
+
+.promoInput::placeholder {
+    color: #7B7B7B;
+    font-family: League Spartan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.promoInput:focus {
+    outline: none;
+}
+
+.subTotalAmount {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.proceedInput {
+    width: 21.3125rem;
+    height: 3.3125rem;
+    border-radius: 0.625rem;
+    background: #52489C;
+    color: #F9F9F9;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.proceedInput:hover {
+    background: #5448b0;
+}
+
+/* Right style end */
+/* Left Right style end */
+
+/* Mobile style start */
+@media (max-width: 1270px) {
+    .firstHeader {
+        width: 370px;
+        padding: 0 30px;
+        margin-top: 40px;
+    }
+
+    .firstH1 {
+        font-size: 2.25rem;
+    }
+
+    /* Left Right style start */
+    /* Left style start */
+    .leftRightCon {
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 58px;
+        /* gap: 104px; */
+        /* padding-bottom: 111px; */
+    }
+
+    .leftDiv {
+        /* width: 370px; */
+        width: 23.125rem;
+        padding: 0 30px;
+        margin: auto;
+    }
+
+    .GiftQPdiv {
+
+        /* display: flex; */
+        /* justify-content: space-between; */
+        padding-right: 0px;
+        /* border-bottom: 1px solid #7B7B7B; */
+        padding: 0px 0 10px 0;
+    }
+
+    .textGift {
+        font-size: 1.25rem;
+    }
+
+    .qpDiv {
+        display: flex;
+    }
+
+    .textQuantity {
+        padding-right: 50px;
+        font-size: 1.25rem;
+    }
+
+    .textPrice {
+        padding-right: 25px;
+        font-size: 1.25rem;
+    }
+
+    /* Item style start */
+    /* Item style end */
+    .itemDiv {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .itemImageDiv {
+        margin: auto;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itemImg {
+        margin-left: -40px;
+        width: 4.8125rem;
+        height: 4.75rem;
+    }
+
+    .itemImageDivPara {
+        width: 110px;
+        margin-left: -8px;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    .plusMinusAmountDiv {
+        display: flex;
+        padding-right: 5px;
+        margin-top: -45px;
+    }
+
+    .plusMinusDiv {
+        display: flex;
+        padding-right: 33px;
+    }
+
+    .plusDiv {
+        width: 2rem;
+        height: 1.9375rem;
+    }
+
+    .oneDiv {
+        width: 2rem;
+        height: 1.9375rem;
+    }
+
+    .amountRemoveDiv {
+        display: flex;
+        position: relative;
+        /* justify-content: left; */
+        /* align-items: last baseline; */
+    }
+
+    /* .amountDiv {
+        margin-left: 0px;
+    } */
+    .nairaIcon {
+        width: 0.75rem;
+        height: 0.64288rem;
+    }
+
+    .amountp {
+        font-size: 1rem;
+    }
+
+    .cancelDiv {
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 50px;
+    }
+
+    /* Total style start */
+    .totalDiv {
+        width: 310px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: right;
+        padding-right: 0px;
+        padding-bottom: 79px;
+    }
+
+    .totalp {
+        color: #252335;
+        font-family: League Spartan;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-right: 11px;
+    }
+
+    .totalNairaImg {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .totalAmountDiv {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .totalAmount {
+        font-size: 1.25rem;
+    }
+
+    /* Total style end */
+    /* Imp style start */
+    .impDiv {
+        display: none;
+    }
+
+    .impDivMobile {
+        /* display: block; */
+        display: flex;
+        gap: 8px;
+        margin: -50px 0 -60px -70px;
+    }
+
+    .impImgIcon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .impP {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    /* Imp style end */
+    /* Left style end */
+    /* Right style start */
+    .rightDiv {
+        width: 22.105rem;
+        height: 28.9375rem;
+        padding: 25px;
+        margin-top: -160px;
+        overflow: hidden;
+        /* margin: 0 30px; */
+    }
+
+    .rightHeader {
+        font-size: 1.25rem;
+        padding-bottom: 44px;
+    }
+
+
+    .subtotalP {
+        font-size: 1rem;
+    }
+
+
+    .subtotalAmount {
+        font-size: 1rem;
+    }
+
+    .deliveryFeeAmount {
+        font-size: 1rem;
+    }
+
+    .promoCode {
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+
+    .promoInput {
+        width: 11.625rem;
+        height: 2.3125rem;
+    }
+
+    .promoInput::placeholder {
+        font-size: 0.875rem;
+    }
+
+    .subTotalAmount {
+        font-size: 1rem;
+    }
+
+    .proceedInput {
+        width: 19.4375rem;
+        height: 3.1875rem;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .proceedInput:hover {
+        background: #5448b0;
+    }
+    /* Right style end */
+    /* Left Right style end */
+}
+
+/* Mobile style end */

@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hidden styles start */
+.menuOpenImg {
+  display: none;
+}
+
+.menueOpenImg {
+  display: none;
+}
+
+/* Hidden styles end */
+
+/* Style for the entire header */
+.landingPageHeader {
+  width: 1238px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0px 0 0px;
+  /* background-color: #F9F9F9; */
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Style for the left section (logo and navigation) */
+.leftSection {
+  display: flex;
+  align-items: center;
+  /* margin-left: 10%; */
+}
+
+.logo {
+  color: #52489c;
+  font-family: League Spartan;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  margin-left: 118px;
+  gap: 35px;
+}
+
+.link {
+  text-decoration: none;
+  color: #46435b;
+  /* Text color for navigation links */
+  font-weight: 400px;
+  font-size: 18px;
+}
+
+.basketCon {
+  position: relative;
+  /* padding-bottom: 20px; */
+}
+
+.basketDropDownDiv {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+}
+
+.occasionsCon {
+  position: relative;
+  /* padding-bottom: 20px; */
+}
+
+.occasionsDropDownDiv {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+}
+
+.link:hover {
+  color: #52489c;
+  font-weight: 600;
+}
+
+/* Style for the right section (cart icon and search input) */
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.cartSection {
+  display: flex;
+  align-items: center;
+}
+.cartIcon {
+  position: relative;
+}
+.cartupdateDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -5px -5px 0 0;
+  background-color: #52489c;
+  width: 70%;
+  /* width: 16px; */
+  /* height: 16px; */
+  height: 70%;
+  border-radius: 50px;
+  border: none;
+}
+.cartupdate {
+  font-family: League Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  color: #ffffff;
+  font-size: 0.75rem;
+  margin-top: 2px;
+}
+
+.searchInput {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* Position relative for positioning the search icon */
+}
+.searchIconMobile {
+  display: none;
+}
+.searchIcon {
+  /* Style your search icon image here */
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  /* Adjust the left position of the search icon */
+  transform: translateY(-50%);
+}
+
+.searchTextInput {
+  width: 375px;
+  height: 38px;
+  /* padding-left: 20px; */
+  border: 1px solid #46435b;
+  border-radius: 10px;
+  font-size: 16px;
+  text-indent: 40px;
+}
+
+.searchResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  /* border: 1px solid #46435B; */
+  border-radius: 10px;
+  padding: 0px;
+  margin-top: 10px;
+  z-index: 999;
+}
+.withBorder {
+  border: 1px solid #46435b;
+}
+.searchResultItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  /* border-bottom: 1px solid #46435B; */
+  background-color: #524f66;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Mobile style start */
+@media (max-width: 1270px) {
+  .landingPageHeader {
+    /* width: 370px; */
+    width: 100%;
+    margin: auto;
+    /* display: flex; */
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 28px 30px 0 30px;
+    /* margin-bottom: -40px; */
+    overflow: hidden;
+  }
+
+  .ul {
+    display: none;
+  }
+
+  .searchTextInput {
+    display: none;
+  }
+
+  .menuOpenImg {
+    display: block;
+    position: relative;
+  }
+
+  .menueOpenImg {
+    display: block;
+  }
+
+  .mobileDropDownDiv {
+    position: absolute;
+    right: 0;
+    z-index: 999;
+  }
+  .searchIcon {
+    display: none;
+  }
+
+  .searchInputMobileDiv {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+  }
+  .searchIconMobile {
+    /* Style your search icon image here */
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: -40px;
+    transform: translateY(-50%);
+  }
+  .searchResults {
+    display: none;
+  }
+
+  .cartIcon {
+    margin-right: 10px;
+  }
+}

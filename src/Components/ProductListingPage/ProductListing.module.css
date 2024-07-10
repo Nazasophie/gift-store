@@ -1,0 +1,380 @@
+/* Mobile hidden start */
+.landingRightPicMobile {
+    display: none;
+}
+/* 
+/* added to cart pop up style start */
+.addedToCartPopup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #52489c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+    font-family: League Spartan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+/* added to cart pop up style end */
+/* Mobile hidden end */
+.homeStyle {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 70px 0px 0 0px;
+}
+
+.landingLeft {
+    width: 679px;
+    height: 529px;
+    background-color: #CCEDDD;
+    border-radius: 20px 0 0 20px;
+}
+
+.landingh1 {
+    padding: 90px 0 0 55px;
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.landingp {
+    padding: 69px 0 0 55px;
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Sort style start */
+.sortDiv {
+    width: 1240px;
+    margin: auto;
+}
+.sortDiv1 {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin: 51px 0 51px 0px;
+    /* justify-content: left; */
+    align-items: center;
+}
+
+.sortBy {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.select {
+    width: 8.625rem;
+    height: 2.5625rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #E7EBEE;
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px 0 10px;
+    border: none;
+}
+.itemNumber {
+    color: #46435B;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Sort style end */
+/* Top Picks styles start */
+.TopPicksDiv {
+    margin: 0 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TopPicksDiv1 {
+    /* padding: 0 99px 0 99px; */
+    /* margin: 0 auto; */
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.TopPicksImg1 {
+    margin-top: 20px;
+    width: 25rem;
+    height: 12.6875rem;
+}
+
+.productNameDiv {
+    width: 25rem;
+    height: 5.375rem;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
+    background: #e7ebee;
+    margin-top: -4px;
+    padding: 20px 20px 20px 20px;
+}
+
+.productNameDiv2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productName {
+    color: #46435b;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nairaDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.naira {
+    width: 0.875rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+}
+
+.amount {
+    color: #252335;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TopPicksBtn {
+    width: 6.9375rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: none;
+    background: #52489c;
+    color: #f9f9f9;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.TopPicksBtn:hover {
+    background: #6b61b3;
+    color: #f9f9f9;
+}
+/* Top Picks style end */
+/* Item number style start */
+.numberDivCon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.numberBox {
+    width: 3.125rem;
+    height: 3.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid #52489C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number1 {
+    color: #52489C;
+    font-family: League Spartan;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Item number style send */
+@media (max-width: 1270px) {
+
+    /* Desktop hidden start */
+    .landingRightPic {
+        display: none;
+    }
+
+    .partnersDiv {
+        display: none;
+    }
+
+    /* Desktop hidden end */
+    .homeStyle {
+        flex-direction: column;
+        align-items: center;
+        padding: 70px 30px 0 30px;
+    }
+
+    .landingLeft {
+        width: 100%;
+        height: 348px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .landingh1 {
+        padding: 60px 0 0 20px;
+        font-size: 2.25rem;
+    }
+
+    .landingp {
+        padding: 26px 0 0 20px;
+        font-size: 1rem;
+    }
+
+    .button {
+        padding: 47px 0 0 20px;
+    }
+
+    .landingLink {
+        padding: 18px 32px 18px 32px;
+        border-radius: 0.625rem;
+        font-size: 1rem;
+    }
+
+    .landingRightPicMobile {
+        display: block;
+    }
+
+    .landingRight {
+        max-width: 100%;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .landingRightPicMobile {
+        width: 200%;
+        max-width: 100%;
+        height: auto;
+        object-fit: fill;
+    }
+
+    /* Sort style start */
+.sortDiv {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.sortDiv1 {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin: 51px 0 51px 0px;
+    /* justify-content: left; */
+    align-items: center;
+}
+
+.sortBy {
+    font-size: 1rem;
+}
+.select {
+    height: 2.1875rem;
+    font-size: 1rem;
+}
+.itemNumber {
+    font-size: 1rem;
+}
+/* Sort style end */
+
+    /* Top Picks styles start */
+    .TopPicksDiv {
+        margin: 0 0px 20px 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .TopPicksDiv1 {
+        width: 370px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        gap: 10px;
+        margin-left: 15px;
+    }
+
+    .TopPicksHeader {
+        font-size: 1.25rem;
+        padding: 0 10px;
+    }
+
+    /*  */
+    .TopPicksImg1 {
+        width: 10.7375rem;
+        height: 7.75rem;
+    }
+
+    .productNameDiv {
+        width: 10.7375rem;
+        height: 8.875rem;
+        margin-top: -5px;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .productNameDiv2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 120px;
+    }
+
+    .productName {
+        font-size: 1rem;
+    }
+
+    .nairaDiv {
+        position: absolute;
+        bottom: 50px;
+    }
+
+
+    .amount {
+        font-size: 1rem;
+    }
+
+    .TopPicksBtn {
+        width: 6.375rem;
+        height: 2.1875rem;
+        font-size: 1rem;
+        /* margin-bottom: 10px; */
+        position: absolute;
+        bottom: 0%;
+    }
+
+    /* Top Picks style end */
+}
